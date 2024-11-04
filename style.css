@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gradient {
+    height: 700px;
+    background: linear-gradient(45deg, #112233, #f1f2f3, white);
+}
+.gradient1 {
+    height: 900px;
+    background: radial-gradient(circle, red 30%, green 20%, blue 40%);
+}
+.gradient2 {
+    height: 900px;
+    background: conic-gradient( blue 180deg, red 180deg);
+}
